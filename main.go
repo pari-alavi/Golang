@@ -37,7 +37,7 @@ func (b *Ballot) Vote(candidateName string) {
 	b.Candidates = append(b.Candidates, Candidate{Name: candidateName, Votes: 1})
 }
 
-// GetResults function aggregates and returns the election results
+// GetResults method aggregates and returns the election results
 func (e *Election) GetResults() []Candidate {
 	// Aggregate votes across all ballots
 	aggregateResults := make(map[string]int)
