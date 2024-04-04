@@ -1,0 +1,8 @@
+// Game Plan:
+// 1.Print Game Frame
+// 2.Setup Game Objects
+// 3.Initialize Game Objects & Draw them
+// 4.Handle User Input for Moving the Snake
+// 5.Generating, Eating, Regenerating Apples
+// 6.Hitting the walls and Game Over
+// 7.Snake Eating itself
